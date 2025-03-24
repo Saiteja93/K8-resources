@@ -1,0 +1,15 @@
+kind: pod
+appversion: v1
+metadat:
+  name: environment
+spec:
+  containers: 
+  - name: nginx
+    image: nginx
+    env:
+      - name: docker
+      value: practice
+      - name: kubernetes
+      value: practice
+
+
