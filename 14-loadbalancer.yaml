@@ -1,0 +1,15 @@
+kind: service
+appversion: v1
+metadata: 
+  name: nginx-lb
+spec:
+  type: LoadBalancer
+  selector:
+    project: expense
+    module: backend
+    environment: dev
+  ports:
+  - name: nginx-svc-port
+    protocol: tcp
+    port: 80
+    targetport: 80
