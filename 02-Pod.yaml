@@ -1,4 +1,4 @@
-apppversion: v1
+piversion: v1
 kind: pod
 metadata: 
   name: nginx

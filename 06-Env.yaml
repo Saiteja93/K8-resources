@@ -1,5 +1,5 @@
 kind: pod
-appversion: v1
+apiersion: v1
 metadat:
   name: environment
 spec:

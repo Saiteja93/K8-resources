@@ -1,4 +1,4 @@
-appversion: v1
+apiversion: v1
 kind: pod
 metadata:
   name: labels
@@ -14,7 +14,7 @@ spec:
 ---
 
 kind: service
-appversion: v1
+apiversion: v1
 metadata:
   name: nginx
 spec:

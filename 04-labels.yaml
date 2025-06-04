@@ -1,4 +1,4 @@
-apversion: v1
+apiversion: v1
 kind: pod
 metadata:
   name: labels
