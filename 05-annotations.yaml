@@ -1,6 +1,6 @@
+kind: Pod
 apiVersion: v1
-kind: pod
-metadata: 
+metadata:
   name: annotations
   annotations:
     imageregistry: "https://hub.docker.com/"
